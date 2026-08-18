@@ -15,6 +15,15 @@ export interface Member {
   tier: 'basic' | 'professional' | 'corporate';
 }
 
+export interface TeamMember {
+  id: number;
+  name: string;
+  designation: string;
+  photoUrl: string | null;
+  linkedinUrl: string | null;
+  displayOrder: number;
+}
+
 export interface Review {
   id: number;
   name: string;
@@ -107,5 +116,8 @@ export const publicApi = {
         method: 'POST',
         body: JSON.stringify(member),
       }),
+  },
+  team: {
+    getAll: () => fetchApi<{ team: TeamMember[] }>('/public/team'),
   },
 };

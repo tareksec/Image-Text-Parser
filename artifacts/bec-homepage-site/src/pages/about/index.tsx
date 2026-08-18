@@ -1,16 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Target, TrendingUp, Users, Lightbulb, UserCog, Linkedin } from 'lucide-react';
 import PageTransition from '@/components/layout/PageTransition';
-import { teamApi } from '@/lib/adminApi';
-
-interface TeamMember {
-  id: number;
-  name: string;
-  designation: string;
-  photoUrl: string | null;
-  linkedinUrl: string | null;
-  displayOrder: number;
-}
+import { publicApi, type TeamMember } from '@/lib/publicApi';
 
 const objectives = [
   {
@@ -49,7 +40,7 @@ export default function About() {
   useEffect(() => {
     async function fetchTeam() {
       try {
-        const data = await teamApi.list();
+        const data = await publicApi.team.getAll();
         setTeam(data.team || []);
       } catch (err) {
         console.error('Failed to load team', err);
