@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Bangladesh Executive Chamber"
+description = "The Bangladesh Executive Chamber homepage, recreated from the approved reference mockup with BEC branding, navigation, hero messaging, services, and impact metrics."
+version = "1.0.0"
+id = "artifacts/bec-homepage-site"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20166
+
+[services.development]
+run = "pnpm --filter @workspace/bec-homepage-site run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/bec-homepage-site", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/bec-homepage-site/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20166"
+BASE_PATH = "/"

@@ -1,0 +1,322 @@
+# STRICT IMAGE-TO-WEBPAGE RECREATION
+
+I will provide you with **ONE webpage screenshot/image**.
+
+Your ONLY job is to **recreate the webpage shown in that image as accurately as possible**.
+
+## CRITICAL RULE
+
+### THE IMAGE IS THE COMPLETE DESIGN SPECIFICATION.
+
+**COPY THE IMAGE. DO NOT REDESIGN IT.**
+
+Do not create your own layout.
+Do not improve the design.
+Do not change the positioning.
+Do not add extra sections.
+Do not remove visible elements.
+Do not rearrange anything.
+Do not change the visual hierarchy.
+Do not make creative design decisions.
+
+**Whatever is visible in the image must be recreated in the same visual position, size, spacing, alignment, and structure.**
+
+---
+
+# EXACTLY COPY THE SCREENSHOT
+
+If the screenshot shows a navbar at the top:
+
+→ Recreate the navbar in **exactly the same position and layout**.
+
+If the screenshot shows a logo on the left:
+
+→ Keep the logo in the **same position and relative size**.
+
+If navigation links are arranged in a specific order:
+
+→ Keep the **exact same order and spacing**.
+
+If the screenshot shows a hero image on the right:
+
+→ Keep it on the **right in the same relative position and proportion**.
+
+If text is on the left:
+
+→ Keep it on the **left**.
+
+If a button is underneath a paragraph:
+
+→ Keep it **underneath the paragraph**.
+
+If cards are arranged in a specific grid:
+
+→ Recreate the **same grid structure**.
+
+If an image overlaps another element:
+
+→ Recreate the **same overlap**.
+
+If there is empty space:
+
+→ **Keep the empty space.**
+
+Do not fill empty areas with your own design.
+
+---
+
+# COPY EVERY VISIBLE ELEMENT
+
+Recreate every visible element from the screenshot, including:
+
+* Navbar
+* Logo
+* Navigation links
+* Hero section
+* Hero image
+* Headings
+* Paragraphs
+* Buttons
+* Cards
+* Icons
+* Images
+* Badges
+* Labels
+* Forms
+* Dividers
+* Background shapes
+* Decorative elements
+* Borders
+* Shadows
+* Gradients
+* Containers
+* Spacing
+* Margins
+* Padding
+
+**Nothing visible should be skipped.**
+
+---
+
+# POSITION & LAYOUT ARE EXTREMELY IMPORTANT
+
+The position of every element matters.
+
+Match the screenshot's:
+
+* X position
+* Y position
+* Width
+* Height
+* Alignment
+* Margin
+* Padding
+* Gap
+* Section height
+* Container width
+* Grid structure
+* Flex structure
+* Image placement
+* Text placement
+* Button placement
+* Navbar placement
+
+For example:
+
+If the screenshot has:
+
+**Logo → left
+Navigation → center/right
+Button → far right**
+
+Then reproduce that exact arrangement.
+
+Do NOT decide to center the navbar simply because it looks better.
+
+**The screenshot decides the layout.**
+
+---
+
+# DO NOT ADD ANYTHING OUTSIDE THE IMAGE
+
+This is extremely important.
+
+**Do not add anything that is not required by the screenshot.**
+
+Do not add:
+
+* Extra sections
+* Extra buttons
+* Extra cards
+* Extra text
+* Extra animations that change the design
+* Extra decorative elements
+* Extra navigation items
+* Extra images
+* Extra UI components
+
+If something does not exist in the screenshot, **do not invent it**.
+
+---
+
+# DO NOT CHANGE THE DESIGN
+
+Do NOT:
+
+* Modernize the design
+* Make it more minimal
+* Make it more colorful
+* Change the layout
+* Change the typography unnecessarily
+* Change image positions
+* Change button positions
+* Change section order
+* Change spacing
+* Add your own design ideas
+
+The goal is NOT:
+
+> "Create a similar website."
+
+The goal is:
+
+> **"Recreate THIS EXACT webpage from THIS EXACT image."**
+
+---
+
+# IMAGE & ASSET MATCHING
+
+Use the closest possible assets for everything visible in the screenshot.
+
+For images:
+
+* Same position
+* Same dimensions
+* Same aspect ratio
+* Same crop
+* Same object positioning
+* Same border radius
+
+For icons:
+
+* Same position
+* Same approximate size
+* Same visual weight
+* Same style
+
+---
+
+# TYPOGRAPHY
+
+Match the screenshot's typography as closely as possible:
+
+* Font family
+* Font size
+* Font weight
+* Line height
+* Letter spacing
+* Text color
+* Text alignment
+* Text casing
+
+Do not replace the typography with a completely different style.
+
+---
+
+# ANIMATION
+
+Animation is allowed **ONLY to enhance the webpage without changing the screenshot's visual design or layout**.
+
+Use:
+
+* GSAP
+* Framer Motion / Motion
+* shadcn/ui where appropriate
+
+GSAP reference:
+
+https://gsap.com/
+
+You may add subtle:
+
+* Fade-in
+* Slide-in
+* Scroll reveal
+* Hover
+* Button interaction
+* Image reveal
+* Stagger animation
+
+But animation must NEVER change the original layout.
+
+**Do not add flashy or unnecessary animations that are not appropriate for the screenshot.**
+
+The screenshot's design always has priority over animation.
+
+---
+
+# RESPONSIVE DESIGN
+
+First reproduce the screenshot **exactly at the screenshot's viewport/layout**.
+
+After that, make it responsive.
+
+When adapting to mobile/tablet:
+
+* Preserve the original design
+* Preserve the hierarchy
+* Preserve relative positioning
+* Preserve spacing as much as possible
+
+Do not redesign the page for mobile.
+
+---
+
+# VISUAL COMPARISON
+
+After implementation:
+
+1. Render the webpage.
+2. Compare it directly with the provided image.
+3. Find every visible difference.
+4. Fix the difference.
+5. Compare again.
+6. Continue until the webpage is as close as technically possible.
+
+Pay special attention to:
+
+**Navbar position → Hero layout → Image position → Text position → Button position → Spacing → Typography → Section heights → Colors → Borders → Shadows.**
+
+---
+
+# FINAL RULE
+
+### DO NOT THINK OF THE IMAGE AS INSPIRATION.
+
+### THINK OF THE IMAGE AS THE ACTUAL WEBSITE DESIGN.
+
+**COPY IT.**
+
+The navbar should look like the navbar in the image.
+
+The hero should look like the hero in the image.
+
+The images should be positioned like the images in the image.
+
+The text should be positioned like the text in the image.
+
+The buttons should be positioned like the buttons in the image.
+
+The spacing should look like the spacing in the image.
+
+The entire page should visually resemble the screenshot as closely as possible.
+
+### NO CREATIVE REDESIGN.
+
+### NO UNNECESSARY ADDITIONS.
+
+### NO UNNECESSARY CHANGES.
+
+### IMAGE → EXACT WEBPAGE.
+
+**Recreate what I provide, not what you think would look better.**
